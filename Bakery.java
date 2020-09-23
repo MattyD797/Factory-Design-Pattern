@@ -29,8 +29,12 @@ public class Bakery {
 		else if(type == "carrot cake") {
 			return new CarrotCake();
 		}
-		else{
+		else if(type == "black forest cake"){
 			return new BlackForestCake();
+		}
+		else{
+			System.out.println("This is not a valid cake");
+			return null;
 		}
 	}
 }
