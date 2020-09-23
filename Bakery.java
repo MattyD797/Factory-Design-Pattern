@@ -23,8 +23,7 @@ public class Bakery {
 	 * @return The cake object/the cake and its attributes. 
 	 */
 	private Cake createCake(String type) {
-		if(type == "birthday cake")
-		{
+		if(type == "birthday cake"){
 			return new BirthdayCake();
 		}
 		else if(type == "carrot cake") {
